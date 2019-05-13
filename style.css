@@ -1,101 +1,46 @@
 body {
-    background: #828282;
+    background-color: rgb(77, 77, 77);
 }
-
-#main {
-    width: 80%;
-    margin: auto;
-   
+#content{
+    width: 85%;
+    margin: auto;   
+    background-color: rgb(77, 77, 77);
 }
-
-header {
-    background: #dbdbdb;
+.lightGrey{
+    background-color: rgb(204, 204, 204)
+}
+header{
+    margin: 10px 0px 10px 0px;
+    padding-top: 25px;
     height: 50px;
-    padding-top: 45px;
-    text-align: center;    
+    text-align: center;
+    
 }
 nav{
-    background: #dbdbdb;
-    padding: 45px 0px 35px 0px;
+    margin: 10px 0px 10px 0px;
+    padding-top: 25px;
+    height: 50px;
     text-align: center;
-    margin-top: 10px;
-
 }
 section{
-    background: #dbdbdb;
-    margin-top: 10px;
-    float: left;
-    width: 50%;
-    height: 250px;
-    text-align: center;
     padding-top: 20px;
-
-
-}
-#sub{
-    position: relative;
-    bottom: 10px;
-}
-article{
-    
-    position:absolute;
-    top: 45%;
-    left: 12.5%;
+    width: 50%;
+    float:left;
+    margin-right :10px;
+    height: 190px;
     text-align: center;
-    background: #828282;
-    width: 35%;
-    height: 175px;
-    color: white;
-    padding-top: 10px;
-    
-    
 
-}
-h3{
-    background: #dbdbdb;
-    position:absolute;
-    top: 50%;
-    left: 13.9%;
-    width: 32%;
-    height: 45px;
-    text-align: center;
-    padding-top: 10px;
-    
-
-
-}
-p{
-    background: #dbdbdb;
-    position:absolute;
-    top: 60%;
-    left: 13.9%;
-    width: 32%;
-    height: 45px;
-    padding-top: 10px;
-    text-align: center;
 }
 aside{
-    background: #dbdbdb;
-    margin-left: 10px;
-    margin-top: 10px;
-    float: left;
-    width: 49%;
-    height: 250px;
-    text-align: center;
     padding-top: 20px;
-    
-
-
-
+    width: 46%;
+    height: 190px;
+    margin-left: 10px;
+    float: left;
+    text-align: center;
 }
-footer{
-    float:left;
-    margin-top: 10px;
-    width:100%;
-    height: 50px;
-    padding-top: 45px;
-    overflow:auto;
-    background: #dbdbdb;
-    text-align: center;  
-
+article{
+    position: relative;
+    left: 200px;
+    bottom: 50px;
 }
